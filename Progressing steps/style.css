@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    border-radius: 50px;
+    border-color: pink;
+    margin-left: 550px;
+    margin-top: 350px;
+}
+
+.circle2 {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: pink;
+    stroke-width: 5px;
+    stroke: #1A49EF;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 650px;
+    margin-top: -50px;
+}
+
+.circle3 {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: pink;
+    stroke-width: 5px;
+    stroke: #1A49EF;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 750px;
+    margin-top: -50px;
+}
+
+.circle4 {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: pink;
+    stroke-width: 5px;
+    stroke: #1A49EF;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 850px;
+    margin-top: -50px;
+}
+
+
+.number {
+    width: 15px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.rectangle {
+    width: 330px;
+    height: 3px;
+    flex-shrink: 0;
+    background: pink;
+    position: relative;
+    margin-top: -24px;
+    margin-left: 560px;
+}
+
+.button1 {
+    width: 113px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D9D9D9;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 600px;
+}
+
+.button2 {
+    width: 113px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #1A49EF;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 50px;
+}
+
+
+.text {
+    width: 113px;
+    height: 14px;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
